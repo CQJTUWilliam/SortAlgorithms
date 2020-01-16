@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/william/CLionProjects/SortAlgorithms/SortAlgos.cpp">
+			<Option target="SortAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/william/CLionProjects/SortAlgorithms/SortAlgos.h">
+			<Option target="SortAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/william/CLionProjects/SortAlgorithms/main.cpp">
 			<Option target="SortAlgorithms"/>
 		</Unit>

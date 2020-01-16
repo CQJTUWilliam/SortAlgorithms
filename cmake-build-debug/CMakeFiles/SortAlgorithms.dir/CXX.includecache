@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/william/CLionProjects/SortAlgorithms/SortAlgos.h
+
+/home/william/CLionProjects/SortAlgorithms/main.cpp
+iostream
+-
+SortAlgos.h
+/home/william/CLionProjects/SortAlgorithms/SortAlgos.h
+

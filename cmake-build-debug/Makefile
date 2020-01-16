@@ -123,6 +123,33 @@ SortAlgorithms/fast:
 	$(MAKE) -f CMakeFiles/SortAlgorithms.dir/build.make CMakeFiles/SortAlgorithms.dir/build
 .PHONY : SortAlgorithms/fast
 
+SortAlgos.o: SortAlgos.cpp.o
+
+.PHONY : SortAlgos.o
+
+# target to build an object file
+SortAlgos.cpp.o:
+	$(MAKE) -f CMakeFiles/SortAlgorithms.dir/build.make CMakeFiles/SortAlgorithms.dir/SortAlgos.cpp.o
+.PHONY : SortAlgos.cpp.o
+
+SortAlgos.i: SortAlgos.cpp.i
+
+.PHONY : SortAlgos.i
+
+# target to preprocess a source file
+SortAlgos.cpp.i:
+	$(MAKE) -f CMakeFiles/SortAlgorithms.dir/build.make CMakeFiles/SortAlgorithms.dir/SortAlgos.cpp.i
+.PHONY : SortAlgos.cpp.i
+
+SortAlgos.s: SortAlgos.cpp.s
+
+.PHONY : SortAlgos.s
+
+# target to generate assembly for a file
+SortAlgos.cpp.s:
+	$(MAKE) -f CMakeFiles/SortAlgorithms.dir/build.make CMakeFiles/SortAlgorithms.dir/SortAlgos.cpp.s
+.PHONY : SortAlgos.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SortAlgorithms"
 	@echo "... edit_cache"
+	@echo "... SortAlgos.o"
+	@echo "... SortAlgos.i"
+	@echo "... SortAlgos.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
